@@ -1,826 +1,1006 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Ogani Template">
-    <meta name="keywords" content="Ogani, unica, creative, html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ogani | Template</title>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Ogani Template" />
+    <meta name="keywords" content="Ogani, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NapTheVip</title>
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <!-- Page Preloder -->
     <div id="preloder">
-        <div class="loader"></div>
+      <div class="loader"></div>
     </div>
 
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+      <div class="humberger__menu__logo">
+        <a href="#"><img src="img/logo.png" alt="" /></a>
+      </div>
+      <div class="humberger__menu__cart">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
+          </li>
+        </ul>
+        <div class="header__cart__price">
+          Giỏ hàng: <span>150.000 VND</span>
         </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+      </div>
+      <div class="humberger__menu__widget">
+        <div class="header__top__right__language">
+          <img src="img/language.png" alt="" />
+          <div>Tiếng Việt</div>
+          <span class="arrow_carrot-down"></span>
+          <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Tiếng Việt</a></li>
+          </ul>
+        </div>
+        <div class="header__top__right__auth">
+          <a href="#"><i class="fa fa-user"></i> Đăng nhập</a>
+        </div>
+      </div>
+      <nav class="humberger__menu__nav mobile-menu">
+        <ul>
+          <li class="active"><a href="./index.html">Trang chủ</a></li>
+          <li><a href="./shop-grid.html">Mua thẻ</a></li>
+          <li>
+            <a href="#">Hướng Dẫn</a>
+            <ul class="header__menu__dropdown">
+              <li><a href="./shop-details.html">Chi Tiết Thẻ Nạp</a></li>
+              <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
+              <li><a href="./checkout.html">Thanh Toán</a></li>
+              <li><a href="./blog-details.html">chi tiết tin tức</a></li>
             </ul>
-            <div class="header__cart__price">Giỏ hàng: <span>$150.00</span></div>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>Tiếng Việt</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">Tiếng Việt</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
-            </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./shop-grid.html">Shop</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.html">Shop Details</a></li>
-                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                        <li><a href="./checkout.html">Check Out</a></li>
-                        <li><a href="./blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div id="mobile-menu-wrap"></div>
-        <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        </div>
-        <div class="humberger__menu__contact">
-            <ul>
-                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                <li>Free Shipping for all Order of $99</li>
-            </ul>
-        </div>
+          </li>
+          <li><a href="./blog.html">Tin tức</a></li>
+          <li><a href="./contact.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <div id="mobile-menu-wrap"></div>
+      <div class="header__top__right__social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+      </div>
+      <div class="humberger__menu__contact">
+        <ul>
+          <li><i class="fa fa-envelope"></i> napthe@vip.com</li>
+          <li>Nạp thẻ siêu tốc, nhận mã ngay sau thanh toán!</li>
+        </ul>
+      </div>
     </div>
     <!-- Humberger End -->
 
     <!-- Header Section Begin -->
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
-                            <div class="header__top__right__language">
-                                <img src="img/language.png" alt="">
-                                <div>Tiếng Việt</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">Tiếng Việt</a></li>
-                                </ul>
-                            </div>
-                            <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="header__top">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <nav class="header__menu">
-                        <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="./shop-grid.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">Giỏ hàng: <span>$150.00</span></div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__left">
+                <ul>
+                  <li><i class="fa fa-envelope"></i> napthe@vip.com</li>
+                  <li>Nạp thẻ siêu tốc, nhận mã ngay sau thanh toán!</li>
+                </ul>
+              </div>
             </div>
-            <div class="humberger__open">
-                <i class="fa fa-bars"></i>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                </div>
+                <div class="header__top__right__language">
+                  <img src="img/language.png" alt="" />
+                  <div>Tiếng Việt</div>
+                  <span class="arrow_carrot-down"></span>
+                  <ul>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Tiếng Việt</a></li>
+                  </ul>
+                </div>
+                <div class="header__top__right__auth">
+                  <a href="#"><i class="fa fa-user"></i> Đăng nhập</a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="header__logo">
+              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="header__menu">
+              <ul>
+                <li class="active"><a href="./index.html">Trang chủ</a></li>
+                <li><a href="./shop-grid.html">Mua thẻ</a></li>
+                <li>
+                  <a href="#">Hướng Dẫn</a>
+                  <ul class="header__menu__dropdown">
+                    <li><a href="./shop-details.html">Chi Tiết Thẻ Nạp</a></li>
+                    <li><a href="./shoping-cart.html">Giỏ Hàng</a></li>
+                    <li><a href="./checkout.html">Thanh Toán</a></li>
+                    <li><a href="./blog-details.html">chi tiết tin tức</a></li>
+                  </ul>
+                </li>
+                <li><a href="./blog.html">Tin Tức</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="header__cart">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                  >
+                </li>
+              </ul>
+              <div class="header__cart__price">
+                Giỏ hàng: <span>150.000 VND</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="humberger__open">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
     </header>
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
     <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>Danh Mục Sản Phẩm </span>
-                        </div>
-                        <ul>
-                            <li><a href="#">Thẻ game</a></li>
-                            <li><a href="#">Thẻ điện thoại</a></li>
-                            <li><a href="#">Thẻ đa năng</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    Tất cả
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="Bạn cần tìm gì?">
-                                <button type="submit" class="site-btn">TÌM KIẾM</button>
-                            </form>
-                        </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>+84 36.363.636</h5>
-                                <span>hỗ trợ 24/7</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
-                        <div class="hero__text">
-                            <span>ƯU ĐÃI ĐẶC BIỆT</span>
-                            <h2>Giảm 5% cho thẻ Viettel <br />Khuyến mãi nạp game <br />tháng 12</h2>
-                            <p>Giao dịch tự động 24/7</p>
-                            <a href="#" class="primary-btn">MUA NGAY</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="hero__categories">
+              <div class="hero__categories__all">
+                <i class="fa fa-bars"></i>
+                <span>Danh Mục Sản Phẩm </span>
+              </div>
+              <ul>
+                <li><a href="#">Thẻ game</a></li>
+                <li><a href="#">Thẻ điện thoại</a></li>
+                <li><a href="#">Thẻ đa năng</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="hero__search">
+              <div class="hero__search__form">
+                <form action="#">
+                  <div class="hero__search__categories">
+                    Phân Loại Thẻ
+                    <span class="arrow_carrot-down"></span>
+                  </div>
+                  <input type="text" placeholder="Bạn cần tìm gì?" />
+                  <button type="submit" class="site-btn">TÌM KIẾM</button>
+                </form>
+              </div>
+              <div class="hero__search__phone">
+                <div class="hero__search__phone__icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="hero__search__phone__text">
+                  <h5>+84 36.363.636</h5>
+                  <span>hỗ trợ 24/7</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
+              <div class="hero__text">
+                <span>ƯU ĐÃI ĐẶC BIỆT</span>
+                <h2>
+                  Giảm 5% cho thẻ Viettel <br />Khuyến mãi nạp game <br />tháng
+                  12
+                </h2>
+                <p>Giao dịch tự động 24/7</p>
+                <a href="#" class="primary-btn">MUA NGAY</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Hero Section End -->
 
     <!-- Categories Section Begin -->
     <section class="categories">
-        <div class="container">
-            <div class="row">
-                <div class="categories__slider owl-carousel">
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><a href="#">Garena</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
-                            <h5><a href="#">Zing</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                            <h5><a href="#">Viettel</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><a href="#">Vinaphone</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                            <h5><a href="#">VNG</a></h5>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="categories__slider owl-carousel">
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-1.jpg"
+              >
+                <h5><a href="#">Garena</a></h5>
+              </div>
             </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-2.jpg"
+              >
+                <h5><a href="#">Zing</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-3.jpg"
+              >
+                <h5><a href="#">Viettel</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-4.jpg"
+              >
+                <h5><a href="#">Vinaphone</a></h5>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div
+                class="categories__item set-bg"
+                data-setbg="img/categories/cat-5.jpg"
+              >
+                <h5><a href="#">VNG</a></h5>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Categories Section End -->
 
     <!-- Featured Section Begin -->
     <section class="featured spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Sản Phẩm Nổi Bật</h2>
-                    </div>
-                    <div class="featured__controls">
-                        <ul>
-                            <li class="active" data-filter="*">Tất cả</li>
-                            <li data-filter=".the-game">Thẻ game</li>
-                            <li data-filter=".the-dien-thoai">Thẻ điện thoại</li>
-                            <li data-filter=".the-da-nang">Thẻ đa năng</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h2>Sản Phẩm Nổi Bật</h2>
             </div>
-            <div class="row featured__filter">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Garena</a></h6>
-                            <h5>20.000 - 500.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Zing</a></h6>
-                            <h5>10.000 - 1.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">VNG</a></h6>
-                            <h5>10.000 - 1.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Gosu</a></h6>
-                            <h5>10.000 - 1.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">VTC</a></h6>
-                            <h5>10.000 - 1.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Soha</a></h6>
-                            <h5>10.000 - 1.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">funcard</a></h6>
-                            <h5>10.000 - 2.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-dien-thoai">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Thẻ Điện Thoại 1 (Viettel)</a></h6>
-                            <h5>100.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-dien-thoai">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-9.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Mobi</a></h6>
-                            <h5>50.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-dien-thoai">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-10.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Vina</a></h6>
-                            <h5>10.000 - 1.000.000 VND</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-da-nang">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">Zing</a></h6>
-                            <h5>10.000 - 1.000.000</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mix the-da-nang">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="#">VNG</a></h6>
-                            <h5>10.000 - 1.000.000</h5>
-                        </div>
-                    </div>
-                </div>
+            <div class="featured__controls">
+              <ul>
+                <li class="active" data-filter="*">Phân Loại Thẻ</li>
+                <li data-filter=".the-game">Thẻ game</li>
+                <li data-filter=".the-dien-thoai">Thẻ điện thoại</li>
+                <li data-filter=".the-da-nang">Thẻ đa năng</li>
+              </ul>
             </div>
+          </div>
         </div>
+        <div class="row featured__filter">
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-1.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Garena</a></h6>
+                <h5>20.000 - 500.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-2.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Zing</a></h6>
+                <h5>10.000 - 1.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-3.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">VNG</a></h6>
+                <h5>10.000 - 1.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-4.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Gosu</a></h6>
+                <h5>10.000 - 1.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-5.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">VTC</a></h6>
+                <h5>10.000 - 1.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-6.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Soha</a></h6>
+                <h5>10.000 - 1.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-game">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-7.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">funcard</a></h6>
+                <h5>10.000 - 2.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-dien-thoai">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-8.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Thẻ Điện Thoại 1 (Viettel)</a></h6>
+                <h5>100.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-dien-thoai">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-9.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Mobi</a></h6>
+                <h5>50.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-dien-thoai">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-10.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Vina</a></h6>
+                <h5>10.000 - 1.000.000 VND</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-da-nang">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-2.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">Zing</a></h6>
+                <h5>10.000 - 1.000.000</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 mix the-da-nang">
+            <div class="featured__item">
+              <div
+                class="featured__item__pic set-bg"
+                data-setbg="img/featured/feature-3.jpg"
+              >
+                <ul class="featured__item__pic__hover">
+                  <li>
+                    <a href="#"><i class="fa fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-retweet"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="featured__item__text">
+                <h6><a href="#">VNG</a></h6>
+                <h5>10.000 - 1.000.000</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Featured Section End -->
 
     <!-- Banner Begin -->
     <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="banner__pic">
-                        <img src="img/banner/banner-1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="banner__pic">
-                        <img src="img/banner/banner-2.jpg" alt="">
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="banner__pic">
+              <img src="img/banner/banner-1.jpg" alt="" />
             </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="banner__pic">
+              <img src="img/banner/banner-2.jpg" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Banner End -->
 
     <!-- Latest Product Section Begin -->
     <section class="latest-product spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Sản phẩm mới</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Garena</h6>
-                                        <span>20.000 - 500.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Zing</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Viettel</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Garena</h6>
-                                        <span>20.000 - 500.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Zing</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Viettel</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>Sản phẩm mới</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Bán chạy</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Garena</h6>
-                                        <span>20.000 - 500.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Zing</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Viettel</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Garena</h6>
-                                        <span>20.000 - 500.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Zing</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Viettel</h6>
-                                        <span>10.000 - 1.000.000 VND</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                    <div class="latest-product__item__text">
+                      <h6>Garena</h6>
+                      <span>20.000 - 500.000 VND</span>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Khuyến mãi hot</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Garena</h6>
-                                        <span>5%</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Zing</h6>
-                                        <span>5%</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Viettel</h6>
-                                        <span>10%</span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Garena</h6>
-                                        <span>5%</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Zing</h6>
-                                        <span>5%</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Viettel</h6>
-                                        <span>10%</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
                     </div>
+                    <div class="latest-product__item__text">
+                      <h6>Zing</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Viettel</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
                 </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Garena</h6>
+                      <span>20.000 - 500.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Zing</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Viettel</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>Bán chạy</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Garena</h6>
+                      <span>20.000 - 500.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Zing</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Viettel</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Garena</h6>
+                      <span>20.000 - 500.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Zing</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Viettel</h6>
+                      <span>10.000 - 1.000.000 VND</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="latest-product__text">
+              <h4>Khuyến mãi hot</h4>
+              <div class="latest-product__slider owl-carousel">
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Garena</h6>
+                      <span>5%</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Zing</h6>
+                      <span>5%</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Viettel</h6>
+                      <span>10%</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="latest-prdouct__slider__item">
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-1.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Garena</h6>
+                      <span>5%</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-2.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Zing</h6>
+                      <span>5%</span>
+                    </div>
+                  </a>
+                  <a href="#" class="latest-product__item">
+                    <div class="latest-product__item__pic">
+                      <img src="img/latest-product/lp-3.jpg" alt="" />
+                    </div>
+                    <div class="latest-product__item__text">
+                      <h6>Viettel</h6>
+                      <span>10%</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Latest Product Section End -->
 
     <!-- Blog Section Begin -->
     <section class="from-blog spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title from-blog__title">
-                        <h2>Tin tức</h2>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title from-blog__title">
+              <h2>Tin tức</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="img/blog/blog-1.jpg" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> December 4,2025</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Nạp thẻ Garena, Zing, Vcoin nhận ngay ưu đãi "khủng" tháng 12</a></h5>
-                            <p>Đừng bỏ lỡ cơ hội nạp Quân Huy, Kim Cương, RP với chiết khấu cực cao trong tháng này. Xem ngay chi tiết sự kiện! </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="img/blog/blog-2.jpg" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> December 4,2025</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Cách nhận ngay 10K từ MoMo cho lần đầu nạp thẻ tại NapTheVip</a></h5>
-                            <p>Bạn đã biết cách nhập mã MOMONAPTHENGAY để được giảm giá 10k chưa? Làm theo hướng dẫn đơn giản sau đây để nhận quà. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <div class="blog__item">
-                        <div class="blog__item__pic">
-                            <img src="img/blog/blog-3.jpg" alt="">
-                        </div>
-                        <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> December 4,2025</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="#">Lịch khuyến mãi nạp thẻ điện thoại Viettel, Vina, Mobi mới nhất</a></h5>
-                            <p>Cập nhật nhanh lịch "Ngày Vàng", "Khuyến mãi Data 4G/5G" từ các nhà mạng để không bỏ lỡ cơ hội nạp thẻ lời nhất. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-1.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> December 4,2025</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5>
+                  <a href="#"
+                    >Nạp thẻ Garena, Zing, Vcoin nhận ngay ưu đãi "khủng" tháng
+                    12</a
+                  >
+                </h5>
+                <p>
+                  Đừng bỏ lỡ cơ hội nạp Quân Huy, Kim Cương, RP với chiết khấu
+                  cực cao trong tháng này. Xem ngay chi tiết sự kiện!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-2.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> December 4,2025</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5>
+                  <a href="#"
+                    >Cách nhận ngay 10K từ MoMo cho lần đầu nạp thẻ tại
+                    NapTheVip</a
+                  >
+                </h5>
+                <p>
+                  Bạn đã biết cách nhập mã MOMONAPTHENGAY để được giảm giá 10k
+                  chưa? Làm theo hướng dẫn đơn giản sau đây để nhận quà.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="blog__item">
+              <div class="blog__item__pic">
+                <img src="img/blog/blog-3.jpg" alt="" />
+              </div>
+              <div class="blog__item__text">
+                <ul>
+                  <li><i class="fa fa-calendar-o"></i> December 4,2025</li>
+                  <li><i class="fa fa-comment-o"></i> 5</li>
+                </ul>
+                <h5>
+                  <a href="#"
+                    >Lịch khuyến mãi nạp thẻ điện thoại Viettel, Vina, Mobi mới
+                    nhất</a
+                  >
+                </h5>
+                <p>
+                  Cập nhật nhanh lịch "Ngày Vàng", "Khuyến mãi Data 4G/5G" từ
+                  các nhà mạng để không bỏ lỡ cơ hội nạp thẻ lời nhất.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                        </div>
-                        <ul>
-                            <li>Địa chỉ: 1 đường a TP Hồ Chí Minh</li>
-                            <li>SĐT: +84 36.363.636</li>
-                            <li>Email: hello@colorlib.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
-                    <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__about__logo">
+                <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+              </div>
+              <ul>
+                <li>Địa chỉ: 1 đường a TP Hồ Chí Minh</li>
+                <li>SĐT: +84 36.363.636</li>
+                <li>Email: napthe@vip.com</li>
+              </ul>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer__copyright">
-                        <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+            <div class="footer__widget">
+              <h6>Useful Links</h6>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Our Shop</a></li>
+                <li><a href="#">Secure Shopping</a></li>
+                <li><a href="#">Delivery infomation</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Our Sitemap</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Innovation</a></li>
+                <li><a href="#">Testimonials</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="footer__widget">
+              <h6>Join Our Newsletter Now</h6>
+              <p>
+                Get E-mail updates about our latest shop and special offers.
+              </p>
+              <form action="#">
+                <input type="text" placeholder="Enter your mail" />
+                <button type="submit" class="site-btn">Subscribe</button>
+              </form>
+              <div class="footer__widget__social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer__copyright">
+              <div class="footer__copyright__text">
+                <p>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+              </div>
+              <div class="footer__copyright__payment">
+                <img src="img/payment-item.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Footer Section End -->
 
@@ -833,9 +1013,5 @@
     <script src="js/mixitup.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
-
-
-</body>
-
+  </body>
 </html>
