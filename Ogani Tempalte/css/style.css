@@ -1815,12 +1815,12 @@ ol {
 
 .product__details__tab .nav-tabs:before {
   position: absolute;
-  left: 0;
-  top: 12px;
-  height: 1px;
-  width: 370px;
-  background: #ebebeb;
-  content: "";
+	left: 0;
+	top: 12px;
+	height: 1px;
+	width: 340px; 
+	background: #ebebeb;
+	content: "";
 }
 
 .product__details__tab .nav-tabs:after {
@@ -1828,7 +1828,7 @@ ol {
   right: 0;
   top: 12px;
   height: 1px;
-  width: 370px;
+  width: 340px;
   background: #ebebeb;
   content: "";
 }
